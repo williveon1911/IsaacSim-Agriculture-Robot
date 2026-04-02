@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<robot name="agri_robot" xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <!-- BASE LINK (Main body) -->
+  <link name="base_link">
+    <inertial>
+      <mass value="50.0"/>
+      <inertia ixx="4.167" ixy="0" ixz="0" iyy="7.5" iyz="0" izz="9.375"/>
+    </inertial>
+    
+    <visual>
+      <geometry>
+        <box size="1.5 0.8 0.6"/>
+      </geometry>
+      <material name="green">
+        <color rgba="0.2 0.6 0.2 1"/>
+      </material>
+    </visual>
+    
+    <collision>
+      <geometry>
+        <box size="1.5 0.8 0.6"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- REAR LEFT WHEEL -->
+  <link name="rear_left_wheel">
+    <inertial>
+      <mass value="5.0"/>
+      <inertia ixx="0.1125" ixy="0" ixz="0" iyy="0.1125" iyz="0" izz="0.225"/>
+    </inertial>
+    
+    <visual>
+      <geometry>
+        <cylinder radius="0.3" length="0.2"/>
+      </geometry>
+      <material name="black">
+        <color rgba="0.1 0.1 0.1 1"/>
+      </material>
+    </visual>
+    
+    <collision>
+      <geometry>
+        <cylinder radius="0.3" length="0.2"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="rear_left_wheel_joint" type="continuous">
+    <parent link="base_link"/>
+    <child link="rear_left_wheel"/>
+    <origin xyz="-0.5 0.5 -0.3" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+  </joint>
+
+  <!-- REAR RIGHT WHEEL -->
+  <link name="rear_right_wheel">
+    <inertial>
+      <mass value="5.0"/>
+      <inertia ixx="0.1125" ixy="0" ixz="0" iyy="0.1125" iyz="0" izz="0.225"/>
+    </inertial>
+    
+    <visual>
+      <geometry>
+        <cylinder radius="0.3" length="0.2"/>
+      </geometry>
+      <material name="black">
+        <color rgba="0.1 0.1 0.1 1"/>
+      </material>
+    </visual>
+    
+    <collision>
+      <geometry>
+        <cylinder radius="0.3" length="0.2"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="rear_right_wheel_joint" type="continuous">
+    <parent link="base_link"/>
+    <child link="rear_right_wheel"/>
+    <origin xyz="-0.5 -0.5 -0.3" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+  </joint>
+
+  <!-- FRONT LEFT WHEEL -->
+  <link name="front_left_wheel">
+    <inertial>
+      <mass value="3.0"/>
+      <inertia ixx="0.05625" ixy="0" ixz="0" iyy="0.05625" iyz="0" izz="0.1125"/>
+    </inertial>
+    
+    <visual>
+      <geometry>
+        <cylinder radius="0.25" length="0.15"/>
+      </geometry>
+      <material name="black">
+        <color rgba="0.1 0.1 0.1 1"/>
+      </material>
+    </visual>
+    
+    <collision>
+      <geometry>
+        <cylinder radius="0.25" length="0.15"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="front_left_wheel_joint" type="continuous">
+    <parent link="base_link"/>
+    <child link="front_left_wheel"/>
+    <origin xyz="0.5 0.4 -0.3" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+  </joint>
+
+  <!-- FRONT RIGHT WHEEL -->
+  <link name="front_right_wheel">
+    <inertial>
+      <mass value="3.0"/>
+      <inertia ixx="0.05625" ixy="0" ixz="0" iyy="0.05625" iyz="0" izz="0.1125"/>
+    </inertial>
+    
+    <visual>
+      <geometry>
+        <cylinder radius="0.25" length="0.15"/>
+      </geometry>
+      <material name="black">
+        <color rgba="0.1 0.1 0.1 1"/>
+      </material>
+    </visual>
+    
+    <collision>
+      <geometry>
+        <cylinder radius="0.25" length="0.15"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="front_right_wheel_joint" type="continuous">
+    <parent link="base_link"/>
+    <child link="front_right_wheel"/>
+    <origin xyz="0.5 -0.4 -0.3" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+  </joint>
+
+</robot>

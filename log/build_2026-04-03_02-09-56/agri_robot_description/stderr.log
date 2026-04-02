@@ -1,0 +1,3 @@
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:363: UserWarning: Unbuilt egg for pytest-repeat [unknown version] (/usr/lib/python3/dist-packages)
+  self.local_index = Environment(self.shadow_path + sys.path)
+error: can't copy '/home/wilsonchandra/agri_robot_ws/build/agri_robot_description/resource/agri_robot_description': doesn't exist or not a regular file

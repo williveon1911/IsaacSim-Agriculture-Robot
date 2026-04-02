@@ -1,0 +1,7 @@
+setup.py
+agri_robot_description.egg-info/PKG-INFO
+agri_robot_description.egg-info/SOURCES.txt
+agri_robot_description.egg-info/dependency_links.txt
+agri_robot_description.egg-info/requires.txt
+agri_robot_description.egg-info/top_level.txt
+agri_robot_description.egg-info/zip-safe

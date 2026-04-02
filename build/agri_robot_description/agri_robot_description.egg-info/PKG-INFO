@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: agri-robot-description
+Version: 0.1.0
+Summary: URDF and USD robot description
+Home-page: https://github.com/your_user/agri_robot_ws
+Author: Your Name
+Author-email: your_email@example.com
+Maintainer: Your Name
+Maintainer-email: your_email@example.com
+License: MIT

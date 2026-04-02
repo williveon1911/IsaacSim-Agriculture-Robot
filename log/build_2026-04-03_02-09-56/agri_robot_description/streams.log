@@ -1,0 +1,24 @@
+[0.419s] Invoking command in '/home/wilsonchandra/agri_robot_ws/build/agri_robot_description': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/wilsonchandra/agri_robot_ws/build/agri_robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wilsonchandra/agri_robot_ws/install/agri_robot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/wilsonchandra/agri_robot_ws/build/agri_robot_description/build --no-deps symlink_data
+[0.599s] running develop
+[0.691s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:363: UserWarning: Unbuilt egg for pytest-repeat [unknown version] (/usr/lib/python3/dist-packages)
+[0.691s]   self.local_index = Environment(self.shadow_path + sys.path)
+[0.709s] running egg_info
+[0.709s] creating agri_robot_description.egg-info
+[0.719s] writing agri_robot_description.egg-info/PKG-INFO
+[0.719s] writing dependency_links to agri_robot_description.egg-info/dependency_links.txt
+[0.719s] writing requirements to agri_robot_description.egg-info/requires.txt
+[0.719s] writing top-level names to agri_robot_description.egg-info/top_level.txt
+[0.720s] writing manifest file 'agri_robot_description.egg-info/SOURCES.txt'
+[0.730s] reading manifest file 'agri_robot_description.egg-info/SOURCES.txt'
+[0.730s] writing manifest file 'agri_robot_description.egg-info/SOURCES.txt'
+[0.741s] running build_ext
+[0.751s] Creating /home/wilsonchandra/agri_robot_ws/install/agri_robot_description/lib/python3.12/site-packages/agri-robot-description.egg-link (link to .)
+[0.751s] 
+[0.751s] Installed /home/wilsonchandra/agri_robot_ws/build/agri_robot_description
+[0.751s] running symlink_data
+[0.751s] error: can't copy '/home/wilsonchandra/agri_robot_ws/build/agri_robot_description/resource/agri_robot_description': doesn't exist or not a regular file
+[0.751s] creating /home/wilsonchandra/agri_robot_ws/install/agri_robot_description/share
+[0.752s] creating /home/wilsonchandra/agri_robot_ws/install/agri_robot_description/share/ament_index
+[0.752s] creating /home/wilsonchandra/agri_robot_ws/install/agri_robot_description/share/ament_index/resource_index
+[0.752s] creating /home/wilsonchandra/agri_robot_ws/install/agri_robot_description/share/ament_index/resource_index/packages
+[0.767s] Invoked command in '/home/wilsonchandra/agri_robot_ws/build/agri_robot_description' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/wilsonchandra/agri_robot_ws/build/agri_robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wilsonchandra/agri_robot_ws/install/agri_robot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/wilsonchandra/agri_robot_ws/build/agri_robot_description/build --no-deps symlink_data
