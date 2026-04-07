@@ -1,0 +1,1 @@
+/home/wilsonchandra/agri_robot_ws/build/agri_robot_description/ament_cmake_core/agri_robot_descriptionConfig-version.cmake

@@ -1,0 +1,39 @@
+[0.006s] Invoking command in '/home/wilsonchandra/agri_robot_ws/build/agri_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/wilsonchandra/agri_robot_ws/src/agri_robot_description -DCMAKE_INSTALL_PREFIX=/home/wilsonchandra/agri_robot_ws/install/agri_robot_description
+[0.016s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.162s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.165s] -- Found xacro: 2.1.1 (/opt/ros/jazzy/share/xacro/cmake)
+[0.222s] -- Configuring done (0.2s)
+[0.223s] -- Generating done (0.0s)
+[0.224s] -- Build files have been written to: /home/wilsonchandra/agri_robot_ws/build/agri_robot_description
+[0.227s] Invoked command in '/home/wilsonchandra/agri_robot_ws/build/agri_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/wilsonchandra/agri_robot_ws/src/agri_robot_description -DCMAKE_INSTALL_PREFIX=/home/wilsonchandra/agri_robot_ws/install/agri_robot_description
+[0.227s] Invoking command in '/home/wilsonchandra/agri_robot_ws/build/agri_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/wilsonchandra/agri_robot_ws/build/agri_robot_description -- -j32 -l32
+[0.264s] Invoked command in '/home/wilsonchandra/agri_robot_ws/build/agri_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/wilsonchandra/agri_robot_ws/build/agri_robot_description -- -j32 -l32
+[0.279s] Invoking command in '/home/wilsonchandra/agri_robot_ws/build/agri_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/wilsonchandra/agri_robot_ws/build/agri_robot_description
+[0.298s] -- Install configuration: ""
+[0.299s] -- Execute custom install script
+[0.300s] -- Up-to-date symlink: /home/wilsonchandra/agri_robot_ws/install/agri_robot_description/share/agri_robot_description/launch/display.launch.py
+[0.300s] -- Up-to-date symlink: /home/wilsonchandra/agri_robot_ws/install/agri_robot_description/share/agri_robot_description/urdf/agri_robot.urdf
+[0.301s] -- Up-to-date symlink: /home/wilsonchandra/agri_robot_ws/install/agri_robot_description/share/agri_robot_description/urdf/agri_robot.xacro
+[0.301s] -- Up-to-date symlink: /home/wilsonchandra/agri_robot_ws/install/agri_robot_description/share/agri_robot_description/urdf/agri_robot/agri_robot.usd
+[0.301s] -- Up-to-date symlink: /home/wilsonchandra/agri_robot_ws/install/agri_robot_description/share/agri_robot_description/urdf/agri_robot/configuration/agri_robot_base.usd
+[0.301s] -- Up-to-date symlink: /home/wilsonchandra/agri_robot_ws/install/agri_robot_description/share/agri_robot_description/urdf/agri_robot/configuration/agri_robot_physics.usd
+[0.301s] -- Up-to-date symlink: /home/wilsonchandra/agri_robot_ws/install/agri_robot_description/share/agri_robot_description/urdf/agri_robot/configuration/agri_robot_sensor.usd
+[0.301s] -- Up-to-date symlink: /home/wilsonchandra/agri_robot_ws/install/agri_robot_description/share/agri_robot_description/urdf/inertial_macros.xacro
+[0.301s] -- Up-to-date symlink: /home/wilsonchandra/agri_robot_ws/install/agri_robot_description/share/agri_robot_description/urdf/robot.urdf.xacro
+[0.301s] -- Up-to-date symlink: /home/wilsonchandra/agri_robot_ws/install/agri_robot_description/share/agri_robot_description/config/robot.yaml
+[0.302s] -- Up-to-date symlink: /home/wilsonchandra/agri_robot_ws/install/agri_robot_description/share/ament_index/resource_index/package_run_dependencies/agri_robot_description
+[0.302s] -- Up-to-date symlink: /home/wilsonchandra/agri_robot_ws/install/agri_robot_description/share/ament_index/resource_index/parent_prefix_path/agri_robot_description
+[0.302s] -- Up-to-date symlink: /home/wilsonchandra/agri_robot_ws/install/agri_robot_description/share/agri_robot_description/environment/ament_prefix_path.sh
+[0.302s] -- Up-to-date symlink: /home/wilsonchandra/agri_robot_ws/install/agri_robot_description/share/agri_robot_description/environment/ament_prefix_path.dsv
+[0.302s] -- Up-to-date symlink: /home/wilsonchandra/agri_robot_ws/install/agri_robot_description/share/agri_robot_description/environment/path.sh
+[0.302s] -- Up-to-date symlink: /home/wilsonchandra/agri_robot_ws/install/agri_robot_description/share/agri_robot_description/environment/path.dsv
+[0.303s] -- Up-to-date symlink: /home/wilsonchandra/agri_robot_ws/install/agri_robot_description/share/agri_robot_description/local_setup.bash
+[0.303s] -- Up-to-date symlink: /home/wilsonchandra/agri_robot_ws/install/agri_robot_description/share/agri_robot_description/local_setup.sh
+[0.303s] -- Up-to-date symlink: /home/wilsonchandra/agri_robot_ws/install/agri_robot_description/share/agri_robot_description/local_setup.zsh
+[0.303s] -- Up-to-date symlink: /home/wilsonchandra/agri_robot_ws/install/agri_robot_description/share/agri_robot_description/local_setup.dsv
+[0.303s] -- Symlinking: /home/wilsonchandra/agri_robot_ws/install/agri_robot_description/share/agri_robot_description/package.dsv
+[0.318s] -- Up-to-date symlink: /home/wilsonchandra/agri_robot_ws/install/agri_robot_description/share/ament_index/resource_index/packages/agri_robot_description
+[0.318s] -- Up-to-date symlink: /home/wilsonchandra/agri_robot_ws/install/agri_robot_description/share/agri_robot_description/cmake/agri_robot_descriptionConfig.cmake
+[0.319s] -- Up-to-date symlink: /home/wilsonchandra/agri_robot_ws/install/agri_robot_description/share/agri_robot_description/cmake/agri_robot_descriptionConfig-version.cmake
+[0.319s] -- Up-to-date symlink: /home/wilsonchandra/agri_robot_ws/install/agri_robot_description/share/agri_robot_description/package.xml
+[0.322s] Invoked command in '/home/wilsonchandra/agri_robot_ws/build/agri_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/wilsonchandra/agri_robot_ws/build/agri_robot_description
