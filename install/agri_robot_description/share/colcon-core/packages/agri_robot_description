@@ -1,1 +1,0 @@
-controller_manager:gazebo_ros:geometry_msgs:joint_state_publisher:nav_msgs:rclpy:robot_state_publisher:ros2_control:rviz2:std_srvs:urdf:xacro
