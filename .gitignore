@@ -1,0 +1,21 @@
+
+# build artifacts
+build/
+install/
+log/
+
+# local editor / runtime artifacts
+.vscode/
+.thumbs/
+plots/
+sim_log.json
+src/agri_robot_description/sim_log.json
+
+# Python cache
+**/__pycache__/
+*.pyc
+
+# Generated Isaac / URDF exports
+src/agri_robot_description/isaac/agri_robot_scene.backup.usd
+src/agri_robot_description/urdf/agri_robot.urdf
+src/agri_robot_description/urdf/agri_robot/
