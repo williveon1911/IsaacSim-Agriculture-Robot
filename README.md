@@ -180,3 +180,10 @@ Example:
   - Validate that the same Pure Pursuit configuration works under physics.
 - Add automated comparisons between kinematic and Isaac modes.
 - Add CI checks or basic simulation tests for regression protection.
+
+---
+
+## Doumentation
+
+<img width="2494" height="1408" alt="Screenshot from 2026-04-05 17-38-26" src="https://github.com/user-attachments/assets/168145ab-b2bc-4ce2-8a2c-6e6d1ad20a2f" />
+
